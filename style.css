@@ -1,0 +1,104 @@
+body {
+    font-family: 'Uncial Antiqua', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 50px auto;
+
+}
+
+.discussion {
+    background-color: rgba(169, 163, 242, 1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.discussion h1 {
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+.discussion img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.discussion p {
+    font-size: 24px;
+    color: #333;
+}
+
+.discussion {
+    background-color: #d4c5f9;
+}
+
+
+.theory {
+    background-color: #f7d9a8;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.theory h1 {
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+.theory img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.theory p {
+    font-size: 24px;
+    color: #333;
+}
+.hogwarts{
+    background-color: #a3daff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.hogwarts h1 {
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+.hogwarts img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.hogwarts p {
+    font-size: 24px;
+    color: #333;
+}
+.popular{
+    background-color: #c6f7f5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popular h1 {
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+.popular p {
+    font-size: 24px;
+    color: #333;
+}
