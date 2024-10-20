@@ -4,7 +4,7 @@
     background-color: #BEE4BC;
     display: flex;
     align-items: center;
-    
+
     width:412px;
     height: 70px;
 }
@@ -20,7 +20,7 @@
 }
 .menu_button{
     transform: rotate(90deg);
-    
+
 }
 .menu_button_img{
     margin-left: 10px;
@@ -69,4 +69,42 @@ header{
     background-color: #A3ECF2;
 
 }
+
+
+.menu {
+    width: 200px;
+    position: fixed;
+    background-color: #ffb6c1; /* светло-розовый */
+    top: 90px;
+    right: -1000px;
+    transition: 0.2s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px darkgrey solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu-item {
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    background-color: #add8e6; /* светло-голубой */
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 26px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #ffffff; /* белый при наведении */
+    color: #ff69b4; /* розовый текст при наведении */
+    transform: scale(1.05);
+}
+
+.menu-item:active {
+    transform: scale(0.95);
+}
+
 
