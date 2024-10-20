@@ -13,7 +13,7 @@
     background-color: #BEE4BC;
     display: flex;
     flex-direction: column;
-    justify-content:ed;
+    justify-content:end;
     align-items: center;
     width: 76px;
     height: 76px;
@@ -59,12 +59,14 @@ header{
     border-radius: 10px;
     font-size: 20px;
 }
-.menu_optoins{
+.menu_options{
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
+    justify-self: center;
     width: 430px;
     height: 190px;
     background-color: #A3ECF2;
+
 }
 
